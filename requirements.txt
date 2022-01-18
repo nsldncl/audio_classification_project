@@ -1,0 +1,8 @@
+torch==1.10.0
+torchlibrosa==0.0.9
+librosa==0.8.1
+loguru==0.5.3
+transformers==3.0.2
+torchvision==0.11.1
+pandas==1.0.5
+numpy==1.19.0
