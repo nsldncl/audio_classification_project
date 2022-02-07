@@ -73,7 +73,7 @@ def create_dataset():
         split_dir = Path('data/data_splits', split_name)
         split_dir.mkdir(parents=True, exist_ok=True)
 
-        audio_dir = basepath
+        audio_dir = Path(basepath)
         inner_logger.info(f'Creating the {split_name} split.')
         _create_split_data(split_csv, split_dir, audio_dir, words_list)
         inner_logger.info('Done')
